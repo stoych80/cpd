@@ -1,4 +1,4 @@
-# CPD plugin
+# CPD plugin - as the plugin is not for distribution only 1 file is here ATM, showing the user's cpd entries i.e. showcase of the WP_List_Table class usage.
 
 Continued Professional Development activities recording based on cycles. For the users to record their CPD activities - a frontend page is created via shortcode which uses a plugin template by default that can be overloaded for the client. Once installed and activated the CPD must be configured in the admin area for the following settings:
 
@@ -29,6 +29,6 @@ What fields must be filled in a CPD entry in order its Points to count against t
 CPD Entry Fields : here you specify the fields, their type, whether they are required, etc. that users will use when they create CPD entries. For the "Activity Type" dropdown field options - there are a number of rules that can be specified to determine how many points/hours a particular entry can give based on its type: 
 Audit Report = A WP listgrid with all users who have CPD entries with points/hours, cycle(s) information. A search filters included.
 
-Request Extension ability - a list of all users who requested an extension for their current cycle. Admin can approve.reject, amend the requested period. A search filters included.
+Request Extension ability - a list of all users who requested an extension for their current cycle. Admin can approve, reject, amend the requested period. A search filters included.
 
 Automatic database compatibility management based on the plugin version - if the plugin version is incremented - on update of the plugin in the WordPress admin area - it checks for a corresponding database upgrade script(s) to be run.
